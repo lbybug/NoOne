@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <com.xuexiang.xui.widget.button.roundbutton.RoundButton
+            android:id="@+id/goFly"
+            style="@style/RoundButton.Auto"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="起飞" />
+
+        <com.xuexiang.xui.widget.button.roundbutton.RoundButton
+            android:id="@+id/goDown"
+            style="@style/RoundButton.Auto"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="降落" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <com.xuexiang.xui.widget.button.roundbutton.RoundButton
+            android:id="@+id/trackOne"
+            style="@style/RoundButton.Auto"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="追踪零号车" />
+
+        <com.xuexiang.xui.widget.button.roundbutton.RoundButton
+            android:id="@+id/trackTwo"
+            style="@style/RoundButton.Auto"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="追踪一号车" />
+    </LinearLayout>
+
+    <com.xuexiang.xui.widget.button.roundbutton.RoundButton
+        android:id="@+id/connectBle"
+        style="@style/RoundButton.Auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="连接蓝牙" />
+
+    <com.xuexiang.xui.widget.button.roundbutton.RoundButton
+        android:id="@+id/disconnectBle"
+        style="@style/RoundButton.Auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="断开蓝牙" />
+
+    <com.xuexiang.xui.widget.button.roundbutton.RoundButton
+        android:id="@+id/clickToSay"
+        style="@style/RoundButton.Auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="点击说指令" />
+
+
+</LinearLayout>
